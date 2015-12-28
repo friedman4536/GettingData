@@ -12,7 +12,7 @@ library(reshape2)
 # 1. Merge the training and test sets.
 # Change this var depending on the location of the downloaded data.
 DATA_DIR <- "UCI HAR Dataset"
-OUTPUT_TABLE_FILENAME <- "tidy.txt"
+OUTPUT_TABLE_FILENAME <- "tidy_data.txt"
 
 # Convenience function for reading in data files.
 get_data_from_file = function(file_name, subdir="") {
