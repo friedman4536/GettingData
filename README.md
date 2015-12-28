@@ -1,5 +1,6 @@
 # Getting and Cleaning Data
 Contains source produced for Getting and Cleaning Data Coursera course.
+* Please see CodeBook.md for details on what the run_analysis.R file does and any data it uses / provides.
 
 ## Run Instructions
 
