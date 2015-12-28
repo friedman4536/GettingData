@@ -11,8 +11,8 @@ library(reshape2)
 
 # 1. Merge the training and test sets.
 # Change this var depending on the location of the downloaded data.
-DATA_DIR <- "tidy"
-OUTPUT_TABLE_FILENAME <- "tidy_text.txt"
+DATA_DIR <- "UCI HAR Dataset"
+OUTPUT_TABLE_FILENAME <- "tidy.txt"
 
 # Convenience function for reading in data files.
 get_data_from_file = function(file_name, subdir="") {
@@ -71,4 +71,4 @@ tidy_data <- dcast(
   mean)
 
 # Write out the result!
-write.table(tidy_data, file=OUTPUT_TABLE_FILENAME)
+write.table(tidy_data, file=OUTPUT_TABLE_FILENAME, row.names=FALSE)
